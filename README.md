@@ -60,7 +60,7 @@ pyTelegramBotAPI 4.13.0**
 | Информация о ПК    | 28.08.2023   | Да   |
 
 ### Как установить
-#### Windows
+### Windows
 **Установка библиотек**
 
 ```
@@ -104,7 +104,7 @@ ZIP_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming"
 
 **Чтобы сбилдить стиллер в exe используйте nuitka или pyinstaller**
 
-#### MAC OS / Linux
+### MAC OS / Linux
 **Установка библиотек**
 
 ```
