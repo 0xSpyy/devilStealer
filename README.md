@@ -30,6 +30,8 @@
   - Информация о оперативной памяти
   - Информация о дисках
   - Информация об ОС
+ 
+
 **Данные которые ворует стиллер могут обновляться**
 
 ### Последний тест стиллера
@@ -59,8 +61,10 @@ pyTelegramBotAPI 4.13.0**
 | Снимок экрана    | 28.08.2023   | Да   |
 | Информация о ПК    | 28.08.2023   | Да   |
 
-### Как установить
-### Windows
+## Установка/Использование без билдера
+
+> [!ВНИМАНИЕ!] СТИЛЛЕР РАБОТАЕТ ТОЛЬКО НА WINDOWS
+
 **Установка библиотек**
 
 ```
@@ -72,6 +76,10 @@ pip install pyTelegramBotAPI
 ```
 
 **После установки библиотек скачайте и откройте архив с данным репозиторием**
+
+**Стиллер (код) без билдера находится в папке devilStealer-No-Builder**
+
+
 
 **Отредактируйте bot.py**
 
@@ -104,16 +112,69 @@ ZIP_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming"
 
 **Чтобы сбилдить стиллер в exe используйте nuitka или pyinstaller**
 
-### Скоро будет
+
+
+
+## Установка/Использование с билдером
+
+
+**Установка библиотек для корректной работы стиллера**
+
+```
+pip install Pillow
+pip install browser-cookie3
+pip install psutil
+pip install pywin32
+pip install pyTelegramBotAPI
+```
+
+**Установка библиотек для корректной работы билдера**
+
+
+```
+pip install colorama
+```
+
+
+**После установки библиотек скачайте и откройте архив с данным репозиторием**
+
+**Стиллер с билдером находится в папке devilStealer-Builder**
+
+
+**Запустите фаил builder.py**
+> ```python builder.py```
+
+
+**Следуйте инструкциям**
+
+
+![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/Screenshot_1.png?raw=true)
+![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/Screenshot_2.png?raw=true)
+![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/Screenshot_3.png?raw=true)
+
+
+
+**После сборки стиллера код будет лежать в папке devilStealer**
+
+**Фаил для запуска bot.py**
+
+**Чтобы сбилдить стиллер в exe используйте nuitka или pyinstaller**
+
+
+![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/Screenshot_4.png?raw=true)
+
+## Скоро будет
 1. Получение куки и пароли с других браузеров
 2. Получение данных с FileZilla
 3. Получение токена Discord
 4. Другие способы отправки логов
 5. Работа стиллера на Linux
+6. Получение данных с буфера обмена
+
+
 
 ## Скриншоты работы стиллера
 
 ![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/screen1.jpg?raw=true)
 ![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/screen2.jpg?raw=true)
 ![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/screen4.jpg?raw=true)
-
