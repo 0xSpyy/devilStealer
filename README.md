@@ -110,3 +110,10 @@ ZIP_PATH = fr"C:\Users\{os.getlogin()}\AppData\Roaming"
 3. Получение токена Discord
 4. Другие способы отправки логов
 5. Работа стиллера на Linux
+
+## Скриншоты работы стиллера
+
+![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/screen1.jpg?raw=true)
+![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/screen2.jpg?raw=true)
+![Screen](https://github.com/0xSn1kky/devilStealer/blob/main/screenshots/screen4.jpg?raw=true)
+
